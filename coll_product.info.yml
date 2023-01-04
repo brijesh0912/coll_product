@@ -1,0 +1,5 @@
+name: "Collabera Product"
+type: module
+description: "Custom module to create custom content type product"
+core_version_requirement: ^8 || ^9
+package: "custom"

@@ -1,0 +1,16 @@
+{
+    "name": "drupal/coll_product",
+    "description": "This provide dependecies for QR-Code library in module",
+    "type": "drupal-custom-module",
+    "authors": [
+        {
+            "name": "Brijesh Tiwari",
+            "email": "brijeshtiwari09121988@gmail.com"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,3 @@
+services:
+  qrcodeservice:
+    class: Drupal\coll_product\QrcodeService

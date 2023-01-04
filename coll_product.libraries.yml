@@ -1,0 +1,5 @@
+product-page:
+  version: 1.x
+  css:
+    theme:
+      css/product-detail.css: {}

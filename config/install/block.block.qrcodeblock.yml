@@ -1,0 +1,28 @@
+uuid: d8a67f2b-51d6-474a-aef5-31ea2836cbea
+langcode: en
+status: true
+dependencies:
+  module:
+    - coll_product
+    - node
+  theme:
+    - olivero
+id: qrcodeblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: qrcode_block
+settings:
+  id: qrcode_block
+  label: 'QR-Code block'
+  label_display: '0'
+  provider: coll_product
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

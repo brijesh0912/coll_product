@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function coll_product_theme($existing, $type, $theme, $path) {
+
+  return [
+    'node__product' => [
+      'template' => 'node--product',
+      'base hook' => 'node'
+    ],
+    'qrcode_block' => [
+      'variables' => ['app_link_url' => NULL],
+    ],
+  ];
+}
