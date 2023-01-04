@@ -4,7 +4,7 @@ refer command "git clone https://github.com/brijesh0912/coll_product.git
 
 After Install the module and run one composer command below (you can run the composer command on root of the site)
 
-ccomposer require chillerlan/php-qrcode
+composer require chillerlan/php-qrcode
 
 If everything works well then you will be able to see you product on below URL
 
